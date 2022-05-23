@@ -45,9 +45,6 @@ a {
   align-items: center;
   column-gap: 20px;
 }
-img {
-  width: 100%;
-}
 .logo {
   font-size: 15px;
   font-weight: 400;
@@ -55,6 +52,9 @@ img {
   letter-spacing: 0em;
   text-align: left;
   color: #000000;
+}
+.img-header {
+  width: 100%;
 }
 .button-container {
   display: flex;
@@ -95,15 +95,11 @@ img {
 .accelerat {
   max-width: 100%;
   padding: 129px 55px 129px 55px;
-  /* margin: 0 auto; */
 }
 .accelerat-container {
-  /* max-width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* padding: 0 12px 0 20px; */
 }
 .accelerat-column {
   display: flex;
@@ -124,8 +120,10 @@ img {
 .accelerat-img {
   max-width: 50%;
   align-self: center;
-  /* margin-left: auto; */
   flex-shrink: 1;
+}
+.img-accel {
+  width: 100%;
 }
 .text {
   font-family: "GraphikReg";
@@ -147,8 +145,12 @@ img {
 
 .preferred {
   max-width: 100%;
-  padding: 108px 55px 120px 55px;
+  padding: 10px 75px 10px 75px;
   background: #ff9c7d;
+}
+.prefered-container {
+  max-width: 100%;
+  padding: 98px 25px 110px 25px;
 }
 .preferred-title {
   font-family: "GraphikSem";
@@ -168,6 +170,10 @@ img {
   max-width: 100%;
   margin-top: 85px;
 }
+.img-prefer {
+  width: 10%;
+}
+
 .main {
   max-width: 100%;
   padding: 85px 55px;
@@ -217,6 +223,9 @@ img {
 .main-img {
   max-width: 100%;
 }
+.img-main {
+  width: 100%;
+}
 .what {
   background: #fff8e4;
 }
@@ -255,6 +264,9 @@ img {
 }
 .what-img {
   max-width: 40%;
+}
+.img-what {
+  width: 100%;
 }
 .what-title {
   font-family: "GraphikSem";
@@ -365,6 +377,9 @@ img {
 .beige-img {
   max-width: 25%;
 }
+.img-beige {
+  width: 50%;
+}
 .beige2 {
   line-height: 50px;
   font-size: 35px;
@@ -460,13 +475,14 @@ img {
   padding: 95px 75px;
 }
 .last-container {
+  max-width: 100%;
 }
 .last-row {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  /* flex-direction: row; */
-  /* column-gap: 100px; */
+}
+.last-two-img {
+  max-width: 23%;
 }
 h3 {
   font-family: "GraphikSem";
