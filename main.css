@@ -251,7 +251,7 @@ a {
 }
 .what-column {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   max-width: 330px;
@@ -261,13 +261,14 @@ a {
 }
 .what-row {
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: row;
   column-gap: 130px;
 }
 .what-img {
   max-width: 40%;
+  min-height: 99px;
 }
 .img-what {
   width: 100%;
@@ -691,6 +692,7 @@ h6 {
   }
   .what-img {
     max-width: 70%;
+    height: 99px;
   }
   .what-title {
     font-size: 1.1rem;
@@ -1003,6 +1005,7 @@ h6 {
   }
   .what-img {
     max-width: 50%;
+    height: 80px;
   }
   .img-what {
     min-width: 60px;
